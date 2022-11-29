@@ -330,7 +330,7 @@ figcaption{
 input[type=text]{
     margin-top: 15px;
     margin-left:5px;
-    width: 35px;
+    width: 30px;
     height: 20px;
    font-size: 16px;
    border-radius: 10px;
@@ -341,7 +341,7 @@ input[type=text]{
 
 
 #nm,#tel{
-    width:200px;
+    width:180px;
     height: 25px;
 }
 
@@ -354,7 +354,7 @@ input[type=text]{
 
 #es{
     height: 25px;
-    width: 55px;
+    width: 50px;
 }
 
 label{
@@ -455,7 +455,7 @@ label{
         }
     
         figcaption{
-            font-size: 12px;
+            font-size: 11px;
         }
     
     
@@ -603,37 +603,31 @@ label{
 
 
     form{
-        margin-top: 25%;
+        margin-top: 30%;
         width:230px;
     }
     
     
     #nm,#tel{
-        width:90px;
+        width:80px;
         height: 16px;
-    }
-    
-    
-    #cmt{
-        width: 200px;
-        height: 22px;
     }
     
     
 
     #es{
-        height: 18px;
-        width: 40px;
+        height: 15px;
+        width: 35px;
     }
 
     #email{
-        width: 90px;
+        width: 85px;
         font-size: 12px;
         height: 14px;
     }
 
     #descricao{
-        margin-top: 35%;
+        margin-top: 40%;
         width: 230px;
     }
     
@@ -665,7 +659,7 @@ label{
     }
 
     #descricao{
-        margin-top: 25%;
+        margin-top: 30%;
         width: 330px;
     }
     
@@ -819,7 +813,7 @@ font-size: 20px;
 }
 
 #cadastro label{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .btn{
@@ -842,21 +836,20 @@ input[type=text]{
 }
 
 form{
-    margin-top: 15%;
+    margin-top: 20%;
     width:310px;
 }
 
 
 #nm,#tel{
-    width:150px;
+    width:145px;
     height: 18px;
 }
 
-
-#cmt{
-    width: 250px;
-    height: 25px;
+#email{
+    width:200px;
 }
+
 
 
 .cbtn{
