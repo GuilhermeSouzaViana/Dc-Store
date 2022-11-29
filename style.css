@@ -603,7 +603,7 @@ label{
 
 
     form{
-        margin-top: 30%;
+        margin-top: 35%;
         width:230px;
     }
     
@@ -650,6 +650,7 @@ label{
 }
 
 
+
 @media screen and (min-width:351px) and (max-width:870px) {
 
 
@@ -659,7 +660,7 @@ label{
     }
 
     #descricao{
-        margin-top: 30%;
+        margin-top: 35%;
         width: 330px;
     }
     
@@ -836,7 +837,7 @@ input[type=text]{
 }
 
 form{
-    margin-top: 20%;
+    margin-top:25%;
     width:310px;
 }
 
