@@ -1,0 +1,606 @@
+@charset "UTF-8";
+
+body{
+   
+    background-image: url(./imagens/backBatman.gif);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-color:black;
+}
+
+div{
+    text-align: center;
+}
+
+form{
+    border-radius: 25px;
+    color: white;
+    border: 2px solid black;
+    background-color: rgba(95, 95, 95, 0.5);
+    width: 500px;
+    padding: 7px;
+    text-align: center;
+    margin-top: 8%;
+    margin-right: auto;
+    margin-left: auto;
+    
+   
+}
+
+form input{
+    margin-bottom: 10px;
+}
+
+#principal{
+display:none;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 950px;
+margin-top:5px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 25px;
+text-align: center;
+padding: 12px;
+}
+
+#descricao{
+    margin-top: 14%;
+    display: none;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 3px;
+}
+
+#hist{
+    color: white;
+    margin-top: 3%;
+    font-size: 22px;
+}
+
+
+
+#remover{
+    margin-top: 3%;
+    font-size: 14px;
+    padding: 2px;
+    padding-left: 3px;
+}
+
+#brmr{
+    padding: 3px;
+    height: 32px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+
+#brmr:hover{
+    background-color: rgb(85, 80, 80);
+}
+
+#rev{
+    display: none;
+}
+
+.kit,#nomeC{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 22px;
+}
+
+#total{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+#visu{
+    padding: 3px;
+    color: white;
+    margin-top: 2%;
+    width: 50px;
+    margin-left: 90%;
+    cursor: pointer;
+    display: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+
+#visu img{
+    border-radius: 50%;
+}
+
+#visu:hover{
+    box-shadow:0px 0px 30px rgb(172, 172, 172);
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+figure{
+    width: 95%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+
+    background-color: rgb(61, 56, 56);
+}
+
+figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+figcaption{
+    background-color: rgba(0, 0, 0,0.7);
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+}
+
+.pdt{
+    margin-top: 15px;
+    margin-left: 32px;
+    height:320px;
+    width: 200px;
+}
+
+.comp{
+    color: white;
+    margin-top: 25px;
+    font-size: 20px;
+}
+    
+input[type=text]{
+    margin-top: 15px;
+    margin-left:5px;
+    width: 35px;
+    height: 20px;
+   font-size: 16px;
+   border-radius: 10px;
+   padding: 3px;
+   padding-left: 10px;
+   border: none;
+}
+
+
+#nm,#tel{
+    width:200px;
+    height: 25px;
+}
+
+#email{
+    font-size: 16px;
+    height: 20px;
+    padding-left: 10px;
+}
+
+#cmt{
+    width: 300px;
+    height: 30px;
+}
+
+#es{
+    height: 25px;
+    width: 55px;
+}
+
+label{
+    color: white;
+    display: inline-block;
+    margin-left: -20px;
+    font-size: 20px;
+}
+
+
+
+#bev{
+    margin-top: 2%;
+    background-color: black;
+    color: white;
+    width:100%;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+#bev:hover{
+    background-color: rgb(212, 199, 199);
+    color: black;
+}
+
+.cbtn{
+    margin-top: 2%;
+    background-color: rgb(65, 63, 63);
+    color: white;
+    width:165px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.cbtn:hover{
+    background-color: black;
+}
+
+
+.btn{
+    margin-top: 8px;
+    width:100%;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(77, 77, 240);
+    
+}
+
+
+.btn:hover{
+    color: white;
+  background-color: rgb(37, 37, 218);
+}
+
+
+
+@media screen and (min-width:250px) and (max-width:350px) {
+
+
+    #visu{
+        margin-left: 77%
+    }
+
+    #principal{
+        flex-direction: column;
+        text-align: center;
+        width: 200px;
+    }
+    
+    .pdt{
+
+        margin-left:auto;
+        margin-right:auto;
+        height:325px;
+        width: 185px;
+    
+    }
+
+
+    label{
+        font-size: 14px;
+    }
+
+
+    figcaption{
+        font-size: 14px;
+    }
+    
+    
+    input[type=text]{
+         
+        font-size: 12px;
+       
+     }
+    
+
+    h1{
+        font-size: 25px;
+     }
+
+    h2{
+        font-size: 16px;
+    }
+
+
+    form{
+        margin-top: 25%;
+        width:230px;
+    }
+    
+    
+    #nm,#tel{
+        width:90px;
+        height: 16px;
+    }
+    
+    
+    #cmt{
+        width: 200px;
+        height: 22px;
+    }
+    
+    
+    label{
+        font-size: 12px;
+    }
+
+    #es{
+        height: 18px;
+        width: 40px;
+    }
+
+    #email{
+        width: 90px;
+        font-size: 12px;
+        height: 14px;
+    }
+
+
+    .btn{
+        height: 23px;
+        font-size: 13px;
+    }
+
+
+    #descricao{
+        margin-top: 35%;
+        width: 230px;
+    }
+    
+#total,#hist{
+    font-size: 10px;
+}
+
+
+.cbtn{
+    width:110px;
+    height: 20px;
+    font-size: 9px;
+}
+
+#bev{
+    height: 30px;
+    font-size: 14px;
+}
+
+}
+
+
+@media screen and (min-width:351px) and (max-width:805px) {
+
+
+    #bev{
+        height: 40px;
+        font-size: 18px;
+    }
+
+    #descricao{
+        margin-top: 25%;
+        width: 330px;
+    }
+    
+#total,#hist{
+    font-size: 14px;
+}
+
+
+#principal{
+    flex-direction: column;
+    text-align: center;
+    width: 295px;
+}
+
+.pdt{
+
+    margin-left:auto;
+    margin-right:auto;
+    height:315px;
+    width: 235px;
+
+}
+
+.btn{
+    height: 25px;
+    font-size: 14px;
+}
+
+
+label{
+    font-size: 20px;
+}
+
+figcaption{
+    font-size: 16px;
+}
+
+
+input[type=text]{    
+    font-size: 15px;
+   
+ }
+
+ h1{
+    font-size: 30px;
+ }
+
+
+form{
+    margin-top: 15%;
+    width:310px;
+}
+
+
+#nm,#tel{
+    width:150px;
+    height: 18px;
+}
+
+
+#cmt{
+    width: 250px;
+    height: 25px;
+}
+
+
+label{
+    font-size: 15px;
+}
+
+
+.cbtn{
+    width:125px;
+    height: 23px;
+    font-size: 11px;
+}
+
+#visu{
+    margin-left: 80%
+}
+
+}
+
+@media screen and (min-width:806px) and (max-width:1000px) {
+   
+    #visu{
+        margin-left: 88%
+    }
+    
+   
+    #principal{
+        width: 750px;
+    }
+
+    .pdt{
+
+        margin-left:20px;
+        height:230px;
+        width: 160px;
+    
+    }
+   
+    figure{
+        width: 95%;
+        height: 100px;
+    }
+
+
+    label{
+        font-size: 18px;
+    }
+
+    figcaption{
+        font-size: 12px;
+    }
+
+
+    .btn{
+        width:100%;
+        height: 25px;
+        font-size: 14px;
+        border-radius: 5px;       
+    }
+
+
+    input[type=text]{
+     
+       font-size: 14px;
+      
+    }
+}
+
+
+
+@media screen and (min-width:1400px) and (max-width:2000px) {
+
+
+    #descricao{
+        width: 700px;
+    }
+    
+#total,#hist{
+    font-size: 30px;
+}
+
+
+.cbtn{
+    width:255px;
+    height: 50px;
+    font-size: 25px;
+}
+
+
+    #principal{
+        width: 1300px;
+    }
+    
+    .pdt{
+     
+        margin-left: 10px;
+        height:350px;
+        width: 300px;
+    
+    }
+
+    figcaption{
+        font-size: 20px;
+    }
+     
+
+    .btn{
+        margin-top: 25px;
+        height: 35px;
+        font-size: 20px;
+    }
+
+
+    form{
+        width:500px;
+    }
+    
+    
+    input[type=text]{
+     
+        font-size: 20px;
+       
+     }
+
+    #nm,#tel{
+        width:250px;
+        height: 28px;
+    }
+    
+    
+    #cmt{
+        width: 350px;
+        height: 32px;
+    }
+    
+    
+    label{
+        font-size: 25px;
+    }
+
+    #es{
+        height: 30px;
+        width: 65px;
+    }
+
+    #email{
+     
+        font-size: 18px;
+        height: 25px;
+    }
+
+
+
+}
