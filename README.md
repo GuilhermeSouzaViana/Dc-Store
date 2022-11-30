@@ -1,6 +1,6 @@
 # Dc-Store
 
-## <p align="center">Projeto pessoal, a ideia do projeto é uma loja com o tema do universo Dc.</p>
+## <p align="center">Projeto pessoal, a ideia do projeto é uma loja com o tema universo Dc.</p>
 
 
 <div align="center">
@@ -8,7 +8,7 @@
    <img src="https://user-images.githubusercontent.com/102191587/204875585-7c0b5d74-192f-4f0a-831a-00755fa78478.png"  width="400px"  height="179px"/>
 </div>
 
-### Após escolher os itens e informar os dados, o usuário tem as opções de finalizar a compra ou iniciar uma nova, após encerrado é possivel conferir o historico de compras.
+### Após escolher os itens e informar os dados, o usuário tem as opções de finalizar a compra, remover item ou iniciar uma nova compra, após finalizado é possivel conferir o historico de compras.
 
 <div align="center">
      <img src="https://user-images.githubusercontent.com/102191587/204867590-da7836bb-d68a-4d5d-b2ed-343df9da0b3c.png" width="400px" />
