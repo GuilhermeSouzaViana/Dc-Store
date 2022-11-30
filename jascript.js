@@ -1008,7 +1008,7 @@ totalC=somaitens.reduce(function(soma,i){
     cadastro.style.display="block"
     dc.style.display="none"
     shop.style.display="none"
-    descShop.innerHTML="Faça o login para finalizar a compra"
+    descShop.innerHTML="Informe seus dados para proseguir "
     itens.map((p,i)=>{carrinho.innerHTML+= i+1 +"."+ p + "<br>"}) 
     total.innerHTML="Total da compra "+totReais 
      
